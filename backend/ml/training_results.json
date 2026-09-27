@@ -1,0 +1,267 @@
+{
+  "trained_at": "2026-08-03 20:40:23",
+  "best_model": "Random Forest",
+  "best_accuracy": 100.0,
+  "active_model": "Decision Tree",
+  "models": {
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "model_file": "random_forest.pkl",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "roc_auc": 100.0,
+      "training_time_seconds": 4.194,
+      "confusion_matrix": {
+        "true_negative": 5480,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 520
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "SVM": {
+      "model_name": "SVM",
+      "model_file": "svm.pkl",
+      "accuracy": 95.12,
+      "precision": 64.8,
+      "recall": 95.58,
+      "f1_score": 77.23,
+      "roc_auc": 99.08,
+      "training_time_seconds": 35.164,
+      "confusion_matrix": {
+        "true_negative": 5210,
+        "false_positive": 270,
+        "false_negative": 23,
+        "true_positive": 497
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 99.56,
+          "recall": 95.07,
+          "f1_score": 97.27,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 64.8,
+          "recall": 95.58,
+          "f1_score": 77.23,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "model_file": "logistic_regression.pkl",
+      "accuracy": 89.32,
+      "precision": 44.34,
+      "recall": 91.15,
+      "f1_score": 59.66,
+      "roc_auc": 96.73,
+      "training_time_seconds": 1.53,
+      "confusion_matrix": {
+        "true_negative": 4885,
+        "false_positive": 595,
+        "false_negative": 46,
+        "true_positive": 474
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 99.07,
+          "recall": 89.14,
+          "f1_score": 93.84,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 44.34,
+          "recall": 91.15,
+          "f1_score": 59.66,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "Decision Tree": {
+      "model_name": "Decision Tree",
+      "model_file": "decision_tree.pkl",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "roc_auc": 100.0,
+      "training_time_seconds": 0.053,
+      "confusion_matrix": {
+        "true_negative": 5480,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 520
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "KNN": {
+      "model_name": "KNN",
+      "model_file": "knn.pkl",
+      "accuracy": 98.55,
+      "precision": 94.82,
+      "recall": 88.08,
+      "f1_score": 91.33,
+      "roc_auc": 97.35,
+      "training_time_seconds": 0.004,
+      "confusion_matrix": {
+        "true_negative": 5455,
+        "false_positive": 25,
+        "false_negative": 62,
+        "true_positive": 458
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 98.88,
+          "recall": 99.54,
+          "f1_score": 99.21,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 94.82,
+          "recall": 88.08,
+          "f1_score": 91.33,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "Gradient Boosting": {
+      "model_name": "Gradient Boosting",
+      "model_file": "gradient_boosting.pkl",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "roc_auc": 100.0,
+      "training_time_seconds": 8.945,
+      "confusion_matrix": {
+        "true_negative": 5480,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 520
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    },
+    "Naive Bayes": {
+      "model_name": "Naive Bayes",
+      "model_file": "naive_bayes.pkl",
+      "accuracy": 95.55,
+      "precision": 85.63,
+      "recall": 58.46,
+      "f1_score": 69.49,
+      "roc_auc": 90.58,
+      "training_time_seconds": 0.011,
+      "confusion_matrix": {
+        "true_negative": 5429,
+        "false_positive": 51,
+        "false_negative": 216,
+        "true_positive": 304
+      },
+      "classification_report": {
+        "non_fraud": {
+          "precision": 96.17,
+          "recall": 99.07,
+          "f1_score": 97.6,
+          "support": 5480
+        },
+        "fraud": {
+          "precision": 85.63,
+          "recall": 58.46,
+          "f1_score": 69.49,
+          "support": 520
+        }
+      },
+      "dataset_info": {
+        "total_samples": 29999,
+        "train_samples": 23999,
+        "test_samples": 6000,
+        "fraud_count": 2444,
+        "non_fraud_count": 27555
+      }
+    }
+  }
+}
