@@ -1,7 +1,7 @@
 ##  Key Features
 
-* **Multi-Algorithm ML Pipeline**: Trains, evaluates, and dynamically loads 7 different classification models (Random Forest, SVM, Logistic Regression, Decision Tree, KNN, Gradient Boosting, Naive Bayes) to detect fraud with extreme accuracy.
-* **Dynamic Model Metrics Dashboard**: A dedicated `/metrics` page providing a visual comparison of all 7 algorithms (Accuracy, Precision, Recall, F1-Score, ROC-AUC) using Recharts radar and bar charts. Includes a live "Retrain All Models" trigger.
+* **Multi-Algorithm ML Pipeline**: Trains, evaluates, and dynamically loads 5 different classification models (Random Forest, SVM, Logistic Regression, KNN, Naive Bayes) to detect fraud with extreme accuracy.
+* **Dynamic Model Metrics Dashboard**: A dedicated `/metrics` page providing a visual comparison of all 5 algorithms (Accuracy, Precision, Recall, F1-Score, ROC-AUC) using Recharts radar and bar charts. Includes a live "Retrain All Models" trigger.
 * **AI Verdict Engine**: Uses **Groq Cloud (Llama 3.1)** to generate professional, context-aware fraud risk explanation reports in natural language.
 * **Interactive Bento-Style Dashboard**: 
     * **Risk Meter**: Visualized safety gauge through animated SVGs.
